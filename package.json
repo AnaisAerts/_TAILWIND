@@ -1,0 +1,14 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "tailwind template",
+  "main": "tailwind.config.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchcss": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "anais aerts",
+  "license": "ISC"
+}
